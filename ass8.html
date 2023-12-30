@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        border: 1px solid;
+        height: 200px;
+        width: 200px;
+        animation-name: Anu;
+        animation-duration: 9s;
+        animation-iteration-count:infinite;
+        animation-delay: 1s;
+        position: relative;
+    }
+    @keyframes Anu{
+        0%{background-color: aquamarine; left:0%; top:0px;}
+        25%{background-color:chartreuse; left:200px; top:200px;}
+        50%{background-color: blueviolet; left:100px; top:100px;}
+        75%{background-color: darksalmon;  left:200px; top:0px;}
+        100%{background-color: darkseagreen;left: 0px; top:200px}
+    }
+</style>
+<body>
+    <h3 align="center"><u>Animation</u></h3>
+    <div class="box">
+
+    </div>
+</body>
+</html>
